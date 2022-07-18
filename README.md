@@ -3,9 +3,14 @@
 
 ## Installation
 
-:arrow_right: To install on new machines:
+:arrow_right: To **install** on new machines:
 ```bash
 sh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply andersonmgaspar
+```
+
+NOTE: if github asks for password change the remote link to **SSH**:
+```
+git remote set-url origin git@github.com:andersonmgaspar/dotfiles.git
 ```
 
 :arrow_right: create chezmoi's source directory and a git repo on a new machine:
