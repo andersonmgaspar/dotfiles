@@ -77,7 +77,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(history emoji zsh-syntax-highlighting)
+plugins=(history emoji zsh-syntax-highlighting dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,7 +116,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Aliases
 
 alias config="chezmoi edit --apply $HOME/.zshrc"
-#alias reload="source $HOME/.zshrc"
+alias reload="source $HOME/.zshrc"
 alias projects="cd $HOME/dev/"
 
 # Git aliases
