@@ -3,15 +3,15 @@
 
 ## Pre-Requisites
 
-[ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH):
+:link: [ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH):
 ```
 apt install zsh
 ``` 
-[Oh-My-Shell](https://github.com/ohmyzsh/ohmyzsh):
+:link: [Oh-My-Shell](https://github.com/ohmyzsh/ohmyzsh):
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-[PowerLevel10k](https://github.com/romkatv/powerlevel10k)
+:link: [PowerLevel10k](https://github.com/romkatv/powerlevel10k):
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
