@@ -116,7 +116,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Aliases
 
 alias config="chezmoi edit --apply $HOME/.zshrc"
-alias reload="source $HOME/.zshrc"
+alias reload="omz reload"
 alias projects="cd $HOME/dev/"
 
 # Git aliases
