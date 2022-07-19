@@ -1,6 +1,23 @@
 # andi's dotfiles
 :arrow_right: A simple repo for chezmoi dot files manager.
 
+## Pre-Requisites
+
+[ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH):
+```
+apt install zsh
+``` 
+[Oh-My-Shell](https://github.com/ohmyzsh/ohmyzsh):
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+[PowerLevel10k](https://github.com/romkatv/powerlevel10k)
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+``` 
+
+
 ## Installation
 
 :arrow_right: To **install** on new machines:
