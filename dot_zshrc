@@ -77,7 +77,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker history emoji)
+plugins=(history emoji zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,11 +89,13 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
- if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
- else
-   export EDITOR='mvim'
- fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+export EDITOR='vim'
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -113,8 +115,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Aliases
 
-alias config="vi $HOME/.zshrc"
-alias reload="source $HOME/.zshrc"
+alias config="chezmoi edit --apply $HOME/.zshrc"
+#alias reload="source $HOME/.zshrc"
 alias projects="cd $HOME/dev/"
 
 # Git aliases
