@@ -52,3 +52,10 @@ Daily commands [(source)](https://www.chezmoi.io/user-guide/command-overview/)
 
 `chezmoi cd` > opens a subshell in the source directory.
 
+
+## What's Next
+
+- Create a bash script to install all the requirements automagically
+- Add more files to chezmoi manage
+
+
