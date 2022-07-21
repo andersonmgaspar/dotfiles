@@ -1,0 +1,7 @@
+[user]
+	email = andersonmgaspar@gmail.com
+	name = Andi
+[color]
+	ui = true
+[core]
+	editor = emacs
