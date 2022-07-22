@@ -119,6 +119,9 @@ alias config="chezmoi edit --apply $HOME/.zshrc"
 alias reload="omz reload"
 alias projects="cd $HOME/dev/"
 
+setopt EXTENDED_HISTORY
+alias history="history -i"
+
 # Git aliases
 alias gi="git init"
 alias gs="git status -sbu"
@@ -132,8 +135,6 @@ alias gpl="git pull"
 alias gst="git stash"
 alias gstl="git stash list"
 alias glg='git log --graph --oneline --decorate --all'
-
-export HISTTIMEFORMAT="%Y-%m-%d %T "
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
